@@ -1,0 +1,1 @@
+"0","resultados <- replicate(1e4, lancar(probs = c(1/2, rep(1/10, 5))))"

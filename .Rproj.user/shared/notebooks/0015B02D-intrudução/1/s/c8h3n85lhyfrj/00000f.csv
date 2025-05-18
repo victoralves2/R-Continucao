@@ -1,0 +1,8 @@
+"0",""
+"0","lancar2 <- function(){"
+"0","  "
+"0","  dado <- 1:6"
+"0","  lancamentos <- sample(dado, size = 2, replace = TRUE)"
+"0","  sum(lancamentos)"
+"0","}"
+"0",""

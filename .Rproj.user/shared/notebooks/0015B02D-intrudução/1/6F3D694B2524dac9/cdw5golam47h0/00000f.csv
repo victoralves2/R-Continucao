@@ -1,0 +1,5 @@
+"0","lancar <- function(qtde = 2, lados = 6, probs = rep(1/lados, lados)) {"
+"0","  dados <- 1:lados"
+"0","  resultados <- sample(dado, size = qtde, replace = TRUE, prob = probs)"
+"0","  sum(resultados)"
+"0","}"
