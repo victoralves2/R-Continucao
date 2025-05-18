@@ -76,4 +76,22 @@ Se a funcao tiver todos os resultados do mesmo tipo, ao inves de uma lista, simp
 ```{r qplot}
 qplot(resultados, bins = 11)
 ```
+
 #dados viciados 
+```{r viciados}
+lancar <- function(qtde = 2, lados = 6, probs = rep(1/lados, lados)) {
+  dados <- 1:lados
+  resultados <- sample(dado, size = qtde, replace = TRUE, prob = probs)
+  sum(resultados)
+}
+```
+
+```{r lancar-viciados}
+resultados <- replicate(1e4, lancar(probs = c(1/2, rep(1/10, 5))))
+```
+
+```{r plot-viciados}
+qplot(resultados, bins=11)
+```
+
+

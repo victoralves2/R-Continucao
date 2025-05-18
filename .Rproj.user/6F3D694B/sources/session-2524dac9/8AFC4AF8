@@ -3,7 +3,7 @@
     "path": "~/coding/R/introdução/intrudução.Rmd",
     "project_path": "intrudução.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "3601548215",
     "contents": "",
     "dirty": false,
     "created": 1747576621903.0,
@@ -17,11 +17,11 @@
         "last_setup_crc32": "2524dac9740d1c70"
     },
     "folds": "",
-    "lastKnownWriteTime": 1747583277,
+    "lastKnownWriteTime": 1747587233,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1747583722675,
+    "last_content_update": 1747587233606,
     "read_only": false,
     "read_only_alternatives": []
 }
